@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="/assets/built/screen.css?v=15fa147c20" />
+
+        <style>
+    :root {
+        --color-primary:  #f57650;
+        --color-fill: #F8F9FD;
+        --color-text-base: #1E232E;
+        --color-text-muted: #474748;
+        --color-text-button: #ffffff;
+        --color-divider: #d8d8d8;
+    }
+</style>        <style>
+
+/* FONTS */
+
+@font-face {
+    font-family: "Figtree";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Figtree'), url("/assets/fonts/Figtree-Regular.ttf?v=15fa147c20") format('truetype')
+}
+
+@font-face {
+    font-family: "Figtree";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Figtree'), url('/assets/fonts/Figtree-Italic.ttf?v=15fa147c20') format('truetype')
+}
+
+@font-face {
+    font-family: "Figtree";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Figtree'), url('/assets/fonts/Figtree-Light.ttf?v=15fa147c20') format('truetype')
+}
+
+@font-face {
+    font-family: "Figtree";
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Figtree'), url('/assets/fonts/Figtree-LightItalic.ttf?v=15fa147c20') format('truetype')
+}
+
+@font-face {
+    font-family: "Figtree";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Figtree'), url('/assets/fonts/Figtree-Medium.ttf?v=15fa147c20') format('truetype')
+}
+
+@font-face {
+    font-family: "Figtree";
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Figtree'), url('/assets/fonts/Figtree-MediumItalic.ttf?v=15fa147c20') format('truetype')
+}
+
+@font-face {
+    font-family: "Figtree";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Figtree'), url('/assets/fonts/Figtree-SemiBold.ttf?v=15fa147c20') format('truetype')
+}
+
+@font-face {
+    font-family: "Figtree";
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Figtree'), url('/assets/fonts/Figtree-SemiBoldItalic.ttf?v=15fa147c20') format('truetype')
+}
+
+@font-face {
+    font-family: "Figtree";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Figtree'), url('/assets/fonts/Figtree-Bold.ttf?v=15fa147c20') format('truetype')
+}
+
+@font-face {
+    font-family: "Figtree";
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Figtree'), url('/assets/fonts/Figtree-BoldItalic.ttf?v=15fa147c20') format('truetype')
+}
+
+@font-face {
+    font-family: "Figtree";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: local('Figtree'), url('/assets/fonts/Figtree-ExtraBold.ttf?v=15fa147c20') format('truetype')
+}
+
+@font-face {
+    font-family: "Figtree";
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: local('Figtree'), url('/assets/fonts/Figtree-ExtraBoldItalic.ttf?v=15fa147c20') format('truetype')
+}
+
+@font-face {
+    font-family: "Figtree";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local('Figtree'), url('/assets/fonts/Figtree-Black.ttf?v=15fa147c20') format('truetype')
+}
+
+@font-face {
+    font-family: "Figtree";
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: local('Figtree'), url('/assets/fonts/Figtree-BlackItalic.ttf?v=15fa147c20') format('truetype')
+}
+
+@font-face {
+    font-family: "Cal Sans";
+    font-display: swap;
+    src: local('Cal Sans'), url('/assets/fonts/CalSans-SemiBold.woff?v=15fa147c20') format('woff'), url('/assets/fonts/CalSans-SemiBold.woff2?v=15fa147c20') format('woff2'), url('/assets/fonts/CalSans-SemiBold.ttf?v=15fa147c20') format('truetype')
+}
+
+</style>
+        <title>Top 7 Hands-on HTML CSS projects for beginners to practice | Rohit Lakhotia</title>
+
+        <meta name="description" content="What&#x27;s a better way to learn HTML and CSS than to make something from them! Let&#x27;s see the Top 7 HTML CSS projects for beginners to kick off their journey." />
+    <link rel="canonical" href="https://rohitlakhotia.com/blog/html-css-projects-for-beginners/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="https://rohitlakhotia.com/blog/html-css-projects-for-beginners/amp/" />
+    
+    <meta property="og:site_name" content="Rohit Lakhotia" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Top 7 Hands-on HTML CSS projects for beginners to practice | Rohit Lakhotia" />
+    <meta property="og:description" content="What&#x27;s a better way to learn HTML and CSS than to make something from them! Let&#x27;s see the Top 7 HTML CSS projects for beginners to kick off their journey." />
+    <meta property="og:url" content="https://rohitlakhotia.com/blog/html-css-projects-for-beginners/" />
+    <meta property="og:image" content="https://rohitlakhotia.com/content/images/2021/07/Top-7-Hands-on-HTML-CSS-projects-for-beginners-to-practice-1.png" />
+    <meta property="article:published_time" content="2020-03-18T06:18:00.000Z" />
+    <meta property="article:modified_time" content="2024-03-24T08:12:01.000Z" />
+    <meta property="article:tag" content="Frontend" />
+    <meta property="article:tag" content="HTML" />
+    <meta property="article:tag" content="CSS" />
+    
+    <meta property="article:publisher" content="https://www.facebook.com/rohit.lakhotia.39/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Top 7 Hands-on HTML CSS projects for beginners to practice | Rohit Lakhotia" />
+    <meta name="twitter:description" content="What&#x27;s a better way to learn HTML and CSS than to make something from them! Let&#x27;s see the Top 7 HTML CSS projects for beginners to kick off their journey." />
+    <meta name="twitter:url" content="https://rohitlakhotia.com/blog/html-css-projects-for-beginners/" />
+    <meta name="twitter:image" content="https://rohitlakhotia.com/content/images/2021/07/Top-7-Hands-on-HTML-CSS-projects-for-beginners-to-practice-1.png" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Rohit Lakhotia" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Frontend, HTML, CSS" />
+    <meta name="twitter:site" content="@rohitlakh" />
+    <meta name="twitter:creator" content="@rohitlakh" />
+    <meta property="og:image:width" content="1920" />
+    <meta property="og:image:height" content="1080" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rohit Lakhotia",
+        "url": "https://rohitlakhotia.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://rohitlakhotia.com/favicon.ico",
+            "width": 48,
+            "height": 48
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Rohit Lakhotia",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://rohitlakhotia.com/content/images/2022/07/PXL_20211231_164747458.NIGHT.jpg",
+            "width": 1801,
+            "height": 1801
+        },
+        "url": "https://rohitlakhotia.com/author/rohit-lakhotia/",
+        "sameAs": [
+            "https://rohitlakhotia.com",
+            "https://twitter.com/rohitlakh"
+        ]
+    },
+    "headline": "Top 7 Hands-on HTML CSS projects for beginners to practice | Rohit Lakhotia",
+    "url": "https://rohitlakhotia.com/blog/html-css-projects-for-beginners/",
+    "datePublished": "2020-03-18T06:18:00.000Z",
+    "dateModified": "2024-03-24T08:12:01.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://rohitlakhotia.com/content/images/2021/07/Top-7-Hands-on-HTML-CSS-projects-for-beginners-to-practice-1.png",
+        "width": 1920,
+        "height": 1080
+    },
+    "keywords": "Frontend, HTML, CSS",
+    "description": "What&#x27;s a better way to learn HTML and CSS than to make something from them! Let&#x27;s see the Top 7 HTML CSS projects for beginners to kick off their journey.",
+    "mainEntityOfPage": "https://rohitlakhotia.com/blog/html-css-projects-for-beginners/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.42" />
+    <link rel="alternate" type="application/rss+xml" title="Rohit Lakhotia" href="https://rohitlakhotia.com/blog/rss/" />
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.28/umd/portal.min.js" data-i18n="false" data-ghost="https://rohitlakhotia.com/" data-key="921e7a7d214f3e83c985b4a61b" data-api="https://rohitlakhotia.com/ghost/api/content/" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="921e7a7d214f3e83c985b4a61b" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://rohitlakhotia.com/" crossorigin="anonymous"></script>
+    <link href="https://rohitlakhotia.com/webmentions/receive/" rel="webmention" />
+    <script defer src="/public/cards.min.js?v=15fa147c20"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=15fa147c20">
+    <script defer src="/public/member-attribution.min.js?v=15fa147c20"></script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G48QVXQSS0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G48QVXQSS0');
+</script>
+
+<style>
+    pre {
+        overflow-x: visible;
+        white-space: break-spaces;
+    }
+    
+    .post-image{
+    	border-radius: 10px;
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css" integrity="sha512-vswe+cgvic/XBoF1OcM/TeJ2FW0OofqAVdCZiEYkd6dwGXthvkSFWOoGGJgS2CW70VK5dQM5Oh+7ne47s74VTg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+     pre[class*=language-] {
+        margin: 1.75em 0;
+        font-size: 1rem;
+        background: #111;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+</style>
+<style>:root {--ghost-accent-color: #f57650;}</style>
+
+    </head>
+
+<body class="body--container post-template tag-frontend tag-html tag-css">
+
+    <header class="header--container">
+        <nav class="">
+    <div class="nav--container">
+        <div class="nav--logo-container">
+                <a href="https://rohitlakhotia.com" class="nav--logo-title">Rohit Lakhotia</a>
+        </div>
+
+        <div class="nav--list-container">
+            <div data-ghost-search class="nav--search-btn"><svg class="icons--common icon--search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path fill="currentColor"
+        d="m18.9 20.3l-5.6-5.6q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.612 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l5.625 5.625q.275.275.275.675t-.3.7q-.275.275-.7.275t-.7-.275ZM9.5 14q1.875 0 3.188-1.313T14 9.5q0-1.875-1.313-3.188T9.5 5Q7.625 5 6.312 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14Z" />
+</svg>
+<span class="sr-only">Search</span></div>
+            <ul class="nav">
+        <li class="nav-home">
+            <a href="https://rohitlakhotia.com/">Home</a>
+        </li>
+        <li class="nav-blog nav-current-parent">
+            <a href="https://rohitlakhotia.com/blog/">Blog</a>
+        </li>
+</ul>
+
+                <div class="nav--members--container">
+                    <div>
+                        <button type="button" aria-label="Profile avatar" class="nav--members--avatar"
+                            id="avatar-menu-button" aria-expanded="true" aria-haspopup="true">
+                            <svg class="icons--common icon--avatar" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <g fill-rule="evenodd">
+        <path
+            d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" />
+    </g>
+</svg>
+<span class="sr-only">Avatar</span>                        </button>
+                    </div>
+
+                    <div class="nav--members-dropdown-container hidden" id="avatar-menu" role="menu"
+                        aria-orientation="vertical" aria-labelledby="avatar-menu-button" tabindex="-1">
+                        <div class="nav--members-dropdown-options" role="none">
+
+
+                                <div class="nav--members-signedout-container">
+                                    <a href="/sign-in" class="nav--signin-btn">
+                                        Sign in
+                                    </a>
+                                </div>
+
+                                <div class="nav--members-signedout-container">
+                                    <a href="/sign-up" class="nav--signup-btn">
+                                        Sign up
+                                    </a>
+                                </div>
+
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="nav--mobile-button-container">
+            <button data-ghost-search class="nav--search-btn" aria-label="Search"><svg class="icons--common icon--search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path fill="currentColor"
+        d="m18.9 20.3l-5.6-5.6q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.612 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l5.625 5.625q.275.275.275.675t-.3.7q-.275.275-.7.275t-.7-.275ZM9.5 14q1.875 0 3.188-1.313T14 9.5q0-1.875-1.313-3.188T9.5 5Q7.625 5 6.312 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14Z" />
+</svg>
+<span class="sr-only">Search</span></button>
+
+            <button id="mobile-navigation-button" aria-label="Open menu">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="false" focusable="true" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+    class="icons--common icon--menu">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+</svg>
+<span class="sr-only">Menu</span>            </button>
+        </div>
+    </div>
+
+    <div class="nav--mobile-nav-container hidden" id="mobile-navigation">
+        <ul class="nav">
+        <li class="nav-home">
+            <a href="https://rohitlakhotia.com/">Home</a>
+        </li>
+        <li class="nav-blog nav-current-parent">
+            <a href="https://rohitlakhotia.com/blog/">Blog</a>
+        </li>
+</ul>
+                <div class="nav--mobile-auth-buttons-container">
+                    <a class="nav--mobile-signin-btn" href="/sign-in">Sign in</a>
+                    <a class="nav--mobile-signup-btn" href="/sign-up">Sign up</a>
+                </div>
+    </div>
+</nav>
+
+    </header>
+
+    <main>
+
+        
+<style>
+    .prose {
+        --tw-prose-body: var(--color-text-muted);
+        --tw-prose-headings: var(--color-text-base);
+        --tw-prose-lead: var(--color-text-base);
+        --tw-prose-links: var(--color-primary);
+        --tw-prose-bold : var(--color-text-base);
+        --tw-prose-counters: var(--color-text-muted);
+        --tw-prose-bullets: var(--color-text-muted);
+        --tw-prose-hr: var(--color-divider);
+        --tw-prose-quotes: var(--color-text-base);
+        --tw-prose-quote-borders: var(--color-primary);
+        --tw-prose-captions: var(--color-text-base);
+        --tw-prose-code: var(--color-text-base);
+        --tw-prose-pre-code: #e5e7eb;
+        --tw-prose-pre-bg: #1f2937;
+        --tw-prose-th-borders: #d1d5db;
+        --tw-prose-td-borders: #e5e7eb;
+    }
+
+</style>
+
+
+    <article class="post--article post tag-frontend tag-html tag-css">
+        <div class="base">
+            <div class="post--heading-container">
+                <div class="post--share-top-container">
+                    <div class="post--share-text post--share-top-text">
+                        
+                        
+                            <a class="post--primary-tag" href="https://rohitlakhotia.com/tag/frontend/">Frontend</a> 
+                        
+                        • 7 Mins
+
+                    </div>
+
+                    <hr class="post--share-divider" />
+
+                    <div class="share-post--container">
+
+    <a class="share-post--common share-post--facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://rohitlakhotia.com/blog/html-css-projects-for-beginners/">
+        <svg class="icons--common icon--facebook" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24" width="24" height="24">
+    <path fill="none" d="M0 0h24v24H0z" />
+    <path
+        d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z" />
+</svg>
+<span class="sr-only">Facebook</span>    </a>
+
+    <a class="share-post--common share-post--twitter" target="_blank" href="https://twitter.com/intent/tweet?url=https://rohitlakhotia.com/blog/html-css-projects-for-beginners/">
+        <svg class="icons--common icon--twitter" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+    viewBox="0 0 24 24" width="24" height="24">
+    <path fill="none" d="M0 0h24v24H0z" />
+    <path
+        d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z" />
+</svg>
+<span class="sr-only">Twitter</span>    </a>
+
+    <a class="share-post--common share-post--linkedin" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https://rohitlakhotia.com/blog/html-css-projects-for-beginners/">
+        <svg class="icons--common icon--linkedin" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+        viewBox="0 0 24 24" width="24" height="24">
+        <path fill="none" d="M0 0h24v24H0z" />
+        <path
+                d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z" />
+</svg>
+<span class="sr-only">Linkedin</span>    </a>
+
+    
+</div>                </div>
+
+                <h1 class="post--title">
+                    Top 7 Hands-on HTML CSS projects for beginners to practice
+                </h1>
+                
+                    <p class="post--excerpt">What&#x27;s a better way to learn HTML and CSS than to make something from them! Let&#x27;s see the Top 7 HTML CSS projects for beginners to kick off their journey.</p>
+            </div>
+        </div>
+
+        <div class="post--feature-image-container">
+                <figure class="post--feature-image-figure">
+                    <picture class="post--feature-image-picture">
+                        <source srcset="/content/images/size/w300/format/webp/2021/07/Top-7-Hands-on-HTML-CSS-projects-for-beginners-to-practice-1.png 300w, /content/images/size/w600/format/webp/2021/07/Top-7-Hands-on-HTML-CSS-projects-for-beginners-to-practice-1.png 600w, /content/images/size/w1200/format/webp/2021/07/Top-7-Hands-on-HTML-CSS-projects-for-beginners-to-practice-1.png 1200w,
+                            /content/images/size/w2000/format/webp/2021/07/Top-7-Hands-on-HTML-CSS-projects-for-beginners-to-practice-1.png 2000w" sizes="(max-width: 1000px) 600px, 1200px"
+                            type="image/webp">
+
+                        <img class="post--feature-image" srcset="/content/images/size/w300/2021/07/Top-7-Hands-on-HTML-CSS-projects-for-beginners-to-practice-1.png 300w, /content/images/size/w600/2021/07/Top-7-Hands-on-HTML-CSS-projects-for-beginners-to-practice-1.png 600w, /content/images/size/w1200/2021/07/Top-7-Hands-on-HTML-CSS-projects-for-beginners-to-practice-1.png 1200w, /content/images/size/w2000/2021/07/Top-7-Hands-on-HTML-CSS-projects-for-beginners-to-practice-1.png 2000w" sizes="(max-width: 1000px) 600px, 1200px" width="100%" height="100%"
+                            src="/content/images/2021/07/Top-7-Hands-on-HTML-CSS-projects-for-beginners-to-practice-1.png"
+                            alt="Top 7 Hands-on HTML CSS projects for beginners to practice" />
+                    </picture>
+
+                </figure>
+        </div>
+
+        <div class="post--content">
+            <p>Web Development broadly refers to the task related to your web applications or web pages. The basic building block of Web Development is HTML and CSS. So let us look at HTML CSS projects for beginners. But first some information for your own good!</p><p>The basic language that you need for web development is HTML and then we will move on and learn how to add more styles to your web applications with the help of CSS.</p><p>Every webpage on the internet uses HTML, CSS, and JS.</p><p>These languages are constantly evolving just like any other language. They've been around for a few years now. Right now the standard language procedures for HTML, CSS are called HTML5.</p><p><strong>But, how do they work?</strong></p><p>Web Development is what you see when you go to a website. They all are different languages and work differently but they need each other to make a complete website.</p><p>HTML essentially would define all the content, the text, the images, the links but without CSS It is not possible to give styling to it. CSS cannot live without HTML or else there would be nothing to style.</p><p>Every web browser like firefox and chrome translates these three languages into the visual webpage. Without a browser, these languages are just words on a page.</p><h2 id="what-is-html5">What is HTML5?</h2><p>HyperText Markup Language is the standard markup language used for creating web pages and web applications. It is used to describe the structure of the web pages using a process called markup.</p><p>HTML5 is one of the currently evolving languages which has even a body and a community online that manages the rules and best practices of how to build for front-end web development.</p><p>It is basically the constitute of elements and these elements are the building blocks of any HTML page and are represented by tags.</p><p>At the beginning of the era, HTML was controlling a lot of visual aspects like using bold tags, center tags, canvas, etc but then over time, CSS making most of it.</p><h3 id="structure-of-html">Structure of HTML:</h3><p>So firstly, the structure of HTML begins with the HTML tags which tells the browser that this is an HTML page and this is where it begins from.</p><p>Next comes the head tag which contains most of the meta-information about the document. The head tag normally also contains the link to the styling sheets like the fonts that you might be using on your web pages.</p><p>Now head tag also has the title element which specifies a title for the document and can be seen as text on the tab that you open on a browser.</p><!--kg-card-begin: html--><script src="https://embeds.beehiiv.com/recommendations.js?_bhpid=8715568a-af68-4718-adfc-016dbffd2b09&v=1" data-beehiiv-recommendations-widget defer></script>
+
+<iframe src="https://embeds.beehiiv.com/8f53224a-24bb-4051-a5a7-984d5b5480ac" data-test-id="beehiiv-embed" width="100%" height="320" frameborder="0" scrolling="no" style="border-radius: 4px; border: 2px solid #e5e7eb; margin: 0; background-color: transparent;"></iframe>
+<!--kg-card-end: html--><h2 id="html-vs-html5">HTML VS HTML5:</h2><p><strong>HTML:</strong></p><ol><li>HTML is the standard markup language for creating web pages and web applications.</li><li>Vector Graphics is possible in HTML with the help of flash, VML, Silverlight, etc</li><li>Browser cache can be used as temporary storage.</li><li>HTML works smoothly with all old browsers</li><li>Video and Audio are not part of HTML</li></ol><p><strong>HTML5:</strong></p><ol><li>HTML5 is a markup language used for structuring and presenting content on the WWW.</li><li>Vector Graphics are an integral part of HTML5 such as SVG and Canvas.</li><li>Application cache, web SQL database, and web storage is used.</li><li>Modern web browsers support HTML5specifications.</li><li>Video and Audio are an integral part of HTML5.</li></ol><h2 id="what-is-css3">What is CSS3?</h2><p>As you already know HTML and Javascript are for templating the webpage while CSS (Cascading Style Sheets) is responsible for one thing that is styling.</p><p><strong>How it actually works?</strong></p><p>Well, It works by making sure how elements look like on a certain webpage, for example, their colors, the font, and also make sure the positioning of elements and does a little bit of animation.</p><figure class="kg-card kg-image-card"><img src="https://rohitlakhotia.com/content/images/2021/07/stackoverflow-withCSS.png" class="kg-image" alt loading="lazy" width="1899" height="837" srcset="https://rohitlakhotia.com/content/images/size/w600/2021/07/stackoverflow-withCSS.png 600w, https://rohitlakhotia.com/content/images/size/w1000/2021/07/stackoverflow-withCSS.png 1000w, https://rohitlakhotia.com/content/images/size/w1600/2021/07/stackoverflow-withCSS.png 1600w, https://rohitlakhotia.com/content/images/2021/07/stackoverflow-withCSS.png 1899w" sizes="(min-width: 720px) 720px"></figure><p>Now let me tell you the power that CSS comes with so let us see an example of the website <a href="https://stackoverflow.com/?ref=rohitlakhotia.com" rel="noreferrer nofollow noopener">StackOverflow</a>, It is a very beautiful website with the help of CSS so with an extension which is a developer's extension that comes with chrome and in that, if I click on disabling the CSS tab then this is how it will look.</p><figure class="kg-card kg-image-card"><img src="https://rohitlakhotia.com/content/images/2021/07/stackoverflow-withoutCSS.png" class="kg-image" alt loading="lazy" width="1901" height="901" srcset="https://rohitlakhotia.com/content/images/size/w600/2021/07/stackoverflow-withoutCSS.png 600w, https://rohitlakhotia.com/content/images/size/w1000/2021/07/stackoverflow-withoutCSS.png 1000w, https://rohitlakhotia.com/content/images/size/w1600/2021/07/stackoverflow-withoutCSS.png 1600w, https://rohitlakhotia.com/content/images/2021/07/stackoverflow-withoutCSS.png 1901w" sizes="(min-width: 720px) 720px"></figure><p>You can see that now Stackoverflow is not a very beautiful site to look at anymore since the styling has been removed. Now the webpage looks kind of redundant and normally anybody wouldn't actually go through StackOverflow if it actually looked like this.</p><h3 id="structuring-of-css3">Structuring of CSS3:</h3><p>CSS has three manners in which it cascades,</p><ol><li>Elements</li><li>Sheets</li><li>Selectors</li></ol><p>Selectors are the CSS way of selecting different elements on an HTML page. You can select the elements through classes and IDs.</p><p>Let's check out the Top 7 HTML CSS projects for beginners.</p><h2 id="top-7-hands-on-html-css-projects-for-beginners">Top 7 Hands-on HTML, CSS Projects for Beginners</h2><p><strong>TL;DR</strong></p><ul><li><a href="#sticky-notes">Sticky Notes</a></li><li><a href="#event-website">Event Website</a></li><li><a href="#creative-login-form">Creative Login Form</a></li><li><a href="#online-music-gallery">Online Music Gallery</a></li><li><a href="#travel-website">Travel Website</a></li><li><a href="#hotel-website">Hotel Website</a></li><li><a href="#college-fest-website">College Fest Website</a></li></ul><p>Let look at each of the HTML, CSS projects for beginners in detail.</p><!--kg-card-begin: html--><h3 id="sticky-notes">1.  Sticky Notes</h3><!--kg-card-end: html--><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://rohitlakhotia.com/content/images/2021/07/sticky-notes-HTML5.png" class="kg-image" alt loading="lazy" width="1900" height="898" srcset="https://rohitlakhotia.com/content/images/size/w600/2021/07/sticky-notes-HTML5.png 600w, https://rohitlakhotia.com/content/images/size/w1000/2021/07/sticky-notes-HTML5.png 1000w, https://rohitlakhotia.com/content/images/size/w1600/2021/07/sticky-notes-HTML5.png 1600w, https://rohitlakhotia.com/content/images/2021/07/sticky-notes-HTML5.png 1900w" sizes="(min-width: 720px) 720px"><figcaption>Sticky Notes</figcaption></figure><p>Smoothly animating and tilted sticky notes without any use of images or JavaScript - supported by Firefox, Opera, Safari, and Chrome.</p><p>By clever use of the selector and CSS transformations and transitions, we saved ourselves some scripting.</p><p>Further, Google's Web Font API made it easy to use custom font. Using both hovers and focus on the effect also means that keyboard users can observe the results as well.</p><p><strong>Download Link:</strong> <a href="https://github.com/sarfraznawaz2005/HTML5Sticky?ref=rohitlakhotia.com" rel="noreferrer nofollow noopener">Github</a></p><!--kg-card-begin: html--><h3 id="event-website">2. Event Website</h3><!--kg-card-end: html--><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://rohitlakhotia.com/content/images/2021/07/event-website.png" class="kg-image" alt="Event Website" loading="lazy" width="1904" height="897" srcset="https://rohitlakhotia.com/content/images/size/w600/2021/07/event-website.png 600w, https://rohitlakhotia.com/content/images/size/w1000/2021/07/event-website.png 1000w, https://rohitlakhotia.com/content/images/size/w1600/2021/07/event-website.png 1600w, https://rohitlakhotia.com/content/images/2021/07/event-website.png 1904w" sizes="(min-width: 720px) 720px"><figcaption>Event Website</figcaption></figure><p>Organizing events are never been so easier with the event websites. User from around the world can make their reservations on your site and can pay from their place itself. No more waiting in a long queue.</p><p>These are the best event website templates you can use to build a user-attracting event website.</p><p>When you come to an event website templates the biggest dilemma you will come across is, whether to choose a single-page website template or a multi-page website template. Well, both types have their own advantages.</p><p>In the one-page website templates, only the most important information is provided for the users, so the users don’t have to wander around the site to find the correct information.</p><p>With the multi-page website templates, you have plenty of pages and spaces to explain in detail the features of the event.</p><p><strong>Download Link: </strong><a href="https://github.com/faheel/TEDxJMI?ref=rohitlakhotia.com" rel="noreferrer nofollow noopener">Github</a></p><!--kg-card-begin: html--><h3 id="creative-login-form">3. Creative Login Form</h3><!--kg-card-end: html--><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://rohitlakhotia.com/content/images/2021/07/creative-login-form.jpg" class="kg-image" alt="Creative login form" loading="lazy" width="1920" height="899" srcset="https://rohitlakhotia.com/content/images/size/w600/2021/07/creative-login-form.jpg 600w, https://rohitlakhotia.com/content/images/size/w1000/2021/07/creative-login-form.jpg 1000w, https://rohitlakhotia.com/content/images/size/w1600/2021/07/creative-login-form.jpg 1600w, https://rohitlakhotia.com/content/images/2021/07/creative-login-form.jpg 1920w" sizes="(min-width: 720px) 720px"><figcaption>Creative login form</figcaption></figure><p>The creative login form makes your interface look a bit attractive and user-friendly. It will consist of basic queries like Name, Email, Password, and Confirm Password.</p><p>You can customize it as per your need by providing different sections or different images as per your brand. Similarly, you can create a Sign-Up page as well.</p><p><strong>Download Link: </strong><a href="https://www.sourcecodester.com/sites/default/files/download/mayuri_k/upturnlogin.zip?ref=rohitlakhotia.com" rel="noreferrer nofollow noopener">Click Here</a></p><!--kg-card-begin: html--><h3 id="online-music-gallery">4. Online Music Gallery</h3><!--kg-card-end: html--><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://rohitlakhotia.com/content/images/2021/07/online-music-gallery.jpg" class="kg-image" alt="Online Music Gallery" loading="lazy" width="1894" height="895" srcset="https://rohitlakhotia.com/content/images/size/w600/2021/07/online-music-gallery.jpg 600w, https://rohitlakhotia.com/content/images/size/w1000/2021/07/online-music-gallery.jpg 1000w, https://rohitlakhotia.com/content/images/size/w1600/2021/07/online-music-gallery.jpg 1600w, https://rohitlakhotia.com/content/images/2021/07/online-music-gallery.jpg 1894w" sizes="(min-width: 720px) 720px"><figcaption>Online Music Gallery</figcaption></figure><p>The music gallery is an online music store. This is a free HTML template so you can edit it in your own way.</p><p>It has an astonishing color template that makes it very interactive to use. This whole project or the template is designed in HTML using CSS for graphical looking more beautiful.</p><p><strong>Download Link: </strong><a href="https://download.code-projects.org/media/2020/02/ONLINE_MUSIC_GALLERY_USING_HTML_AND_CSS.zip?ref=rohitlakhotia.com" rel="noreferrer nofollow noopener">Click Here</a></p><p>You can also check the Free Courses and Tutorials On <a href="https://learnitfree.org/subject/learn-html-5/?ref=rohitlakhotia.com">HTML5</a> and <a href="https://learnitfree.org/subject/learn-css-3/?ref=rohitlakhotia.com">CSS3</a>.</p><!--kg-card-begin: html--><h3 id="travel-website">5. Travel Website</h3><!--kg-card-end: html--><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://rohitlakhotia.com/content/images/2021/07/travel-website.jpg" class="kg-image" alt="Travel Website" loading="lazy" width="1900" height="898" srcset="https://rohitlakhotia.com/content/images/size/w600/2021/07/travel-website.jpg 600w, https://rohitlakhotia.com/content/images/size/w1000/2021/07/travel-website.jpg 1000w, https://rohitlakhotia.com/content/images/size/w1600/2021/07/travel-website.jpg 1600w, https://rohitlakhotia.com/content/images/2021/07/travel-website.jpg 1900w" sizes="(min-width: 720px) 720px"><figcaption>Travel Website</figcaption></figure><p>Travel Agency Site is created using HTML5, CSS, JavaScript, Bootstrap. This travel site is quite easy and simple to use and understand. Here, you can check the flight date and can manage more activity.</p><p>Though this is a Template, some of the features are to be maintained by the users. This Responsive site is easy to operate and understand by the users. The design is pretty simple and the user won’t find it difficult to understand, use and navigate.</p><p><strong>Download Link: </strong><a href="https://download.code-projects.org/media/2020/02/RESPONSIVE_TRAVEL_AGENCY_SITE_IN_HTML5_AND_JAVASCRIPT_WITH_SOURCE_CODE.zip?ref=rohitlakhotia.com" rel="noreferrer nofollow noopener">Click Here</a></p><!--kg-card-begin: html--><h3 id="hotel-website">6. Hotel Website</h3><!--kg-card-end: html--><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://rohitlakhotia.com/content/images/2021/07/hotel-website.jpg" class="kg-image" alt="Hotel website" loading="lazy" width="1902" height="900" srcset="https://rohitlakhotia.com/content/images/size/w600/2021/07/hotel-website.jpg 600w, https://rohitlakhotia.com/content/images/size/w1000/2021/07/hotel-website.jpg 1000w, https://rohitlakhotia.com/content/images/size/w1600/2021/07/hotel-website.jpg 1600w, https://rohitlakhotia.com/content/images/2021/07/hotel-website.jpg 1902w" sizes="(min-width: 720px) 720px"><figcaption>Hotel website</figcaption></figure><p>Features:</p><ol><li>Check Availability</li><li>Blogs</li><li>Displays Featured Hotels</li><li>Login and Register</li><li>Customer reviews</li></ol><p>This Template is created using HTML5, CSS, JavaScript. Here, Customers can check the hotel’s availability. Easy bookings can be made and customers’ feedback is displayed on the homepage.</p><p>Other features such as Login and Register are also included. Though this is a Template, some of the features are to be maintained by the users.</p><p>This Responsive site is easy to operate and understand by the users. The design is pretty simple and the user won’t find it difficult to understand, use and navigate.</p><p><strong>Download Link: </strong><a href="https://download.code-projects.org/media/2020/02/HOTEL_SITE_IN_HTML5_JAVASCRIPT_WITH_SOURCE_CODE.zip?ref=rohitlakhotia.com" rel="noreferrer nofollow noopener">Click Here</a></p><!--kg-card-begin: html--><h3 id="college-fest-website">7. College Fest Website</h3><!--kg-card-end: html--><p>The responsive college fest website in HTML is a simple and static web for managing the college programs and events. With the help of this website, you can easily forward your upcoming programs and encourage the participants.</p><p>You can easily view the event type that is going to happen at any college. Here you can also send your registration details for participating in the event.</p><p>This is a responsive website created by Acumen and is developed using HTML, CSS, and JavaScript. The website uses Bootstrap and carousel effects for the smooth scrolling effect.</p><p>The user can simply click on the menu bar and view its descriptions. You can simply implement this type of menu for a responsive website which makes it easier for the user to view the college programs more efficiently.</p><p><strong>Download Link: </strong><a href="https://download.code-projects.org/media/2019/11/RESPONSIVE_COLLEGE_FEST_WEBSITE_IN_HTML_WITH_SOURCE_CODE.zip?ref=rohitlakhotia.com" rel="noreferrer nofollow noopener">Click Here</a></p><p><strong>What did you find the best on the list? Let us know in the comment section below!</strong></p><p><strong><em>Want to learn more about HTML5 and CSS3? You can check out the Free Courses and Tutorials on </em></strong><a href="https://learnitfree.org/subject/learn-html-5/?ref=rohitlakhotia.com"><strong><em>HTML5 </em></strong></a><strong><em>and </em></strong><a href="https://learnitfree.org/subject/learn-css-3/?ref=rohitlakhotia.com"><strong><em>CSS3</em></strong></a><strong><em>.</em></strong></p>
+        </div>
+
+        <div class="page--share-bottom-container">
+            <div class="post--share-text page--share-bottom-text">
+                Last updated • <time datetime="24 March 2024">24 March 2024</time>
+            </div>
+
+            <hr class="page--share-divider" />
+
+            <div class="share-post--container">
+
+    <a class="share-post--common share-post--facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://rohitlakhotia.com/blog/html-css-projects-for-beginners/">
+        <svg class="icons--common icon--facebook" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24" width="24" height="24">
+    <path fill="none" d="M0 0h24v24H0z" />
+    <path
+        d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z" />
+</svg>
+<span class="sr-only">Facebook</span>    </a>
+
+    <a class="share-post--common share-post--twitter" target="_blank" href="https://twitter.com/intent/tweet?url=https://rohitlakhotia.com/blog/html-css-projects-for-beginners/">
+        <svg class="icons--common icon--twitter" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+    viewBox="0 0 24 24" width="24" height="24">
+    <path fill="none" d="M0 0h24v24H0z" />
+    <path
+        d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z" />
+</svg>
+<span class="sr-only">Twitter</span>    </a>
+
+    <a class="share-post--common share-post--linkedin" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https://rohitlakhotia.com/blog/html-css-projects-for-beginners/">
+        <svg class="icons--common icon--linkedin" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+        viewBox="0 0 24 24" width="24" height="24">
+        <path fill="none" d="M0 0h24v24H0z" />
+        <path
+                d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z" />
+</svg>
+<span class="sr-only">Linkedin</span>    </a>
+
+    
+</div>        </div>
+
+        <div class="post--comment-container">
+                    </div>
+    </article>
+
+            <div class="base post--more-post-container">
+                <h2 class="post--more-post-heading">More like this</h2>
+
+                <div class="post--more-post-grid">
+                        <a href="https://rohitlakhotia.com/blog/10-ideas-a-day/" class="pc--link-container">
+    <div class="pc--container">
+
+        <picture class="pc--image-picture">
+            <source srcset="/content/images/size/w300/format/webp/2024/04/10ideasday.com.png 300w, /content/images/size/w600/format/webp/2024/04/10ideasday.com.png 600w, /content/images/size/w1200/format/webp/2024/04/10ideasday.com.png 1200w, /content/images/size/w2000/format/webp/2024/04/10ideasday.com.png 2000w" sizes="(max-width: 1000px) 300px, 600px" type="image/webp">
+
+            <img class="pc--image" srcset="/content/images/size/w300/2024/04/10ideasday.com.png 300w,
+                /content/images/size/w600/2024/04/10ideasday.com.png 600w, /content/images/size/w1200/2024/04/10ideasday.com.png 1200w, /content/images/size/w2000/2024/04/10ideasday.com.png 2000w" sizes="(max-width: 1000px) 300px, 600px" width="100%" height="100%"
+                src="/content/images/size/w600/2024/04/10ideasday.com.png" loading="lazy"
+                alt="Building 10 ideas a day" />
+        </picture>
+
+        <div class="pc--content-container">
+            <time class="pc--date" datetime="1 April 2024">
+                1 April 2024
+            </time>
+
+            <h3 class="pc--title">
+                Building 10 ideas a day
+            </h3>
+        </div>
+    </div>
+</a>                        <a href="https://rohitlakhotia.com/blog/leaving-postman/" class="pc--link-container">
+    <div class="pc--container">
+            <div class="pc--featured">
+                Featured
+            </div>
+
+        <picture class="pc--image-picture">
+            <source srcset="https://images.unsplash.com/photo-1588665343610-04dfd562e2e7?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDR8fFdoYXQlMjBhaHJlfGVufDB8fHx8MTcwOTA3MTM2NHww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;300 300w, https://images.unsplash.com/photo-1588665343610-04dfd562e2e7?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDR8fFdoYXQlMjBhaHJlfGVufDB8fHx8MTcwOTA3MTM2NHww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;600 600w, https://images.unsplash.com/photo-1588665343610-04dfd562e2e7?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDR8fFdoYXQlMjBhaHJlfGVufDB8fHx8MTcwOTA3MTM2NHww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;1200 1200w, https://images.unsplash.com/photo-1588665343610-04dfd562e2e7?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDR8fFdoYXQlMjBhaHJlfGVufDB8fHx8MTcwOTA3MTM2NHww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000 2000w" sizes="(max-width: 1000px) 300px, 600px" type="image/webp">
+
+            <img class="pc--image" srcset="https://images.unsplash.com/photo-1588665343610-04dfd562e2e7?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDR8fFdoYXQlMjBhaHJlfGVufDB8fHx8MTcwOTA3MTM2NHww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;300 300w,
+                https://images.unsplash.com/photo-1588665343610-04dfd562e2e7?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDR8fFdoYXQlMjBhaHJlfGVufDB8fHx8MTcwOTA3MTM2NHww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;600 600w, https://images.unsplash.com/photo-1588665343610-04dfd562e2e7?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDR8fFdoYXQlMjBhaHJlfGVufDB8fHx8MTcwOTA3MTM2NHww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;1200 1200w, https://images.unsplash.com/photo-1588665343610-04dfd562e2e7?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDR8fFdoYXQlMjBhaHJlfGVufDB8fHx8MTcwOTA3MTM2NHww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000 2000w" sizes="(max-width: 1000px) 300px, 600px" width="100%" height="100%"
+                src="https://images.unsplash.com/photo-1588665343610-04dfd562e2e7?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDR8fFdoYXQlMjBhaHJlfGVufDB8fHx8MTcwOTA3MTM2NHww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;600" loading="lazy"
+                alt="Leaving Postman and what&#x27;s ahead" />
+        </picture>
+
+        <div class="pc--content-container">
+            <time class="pc--date" datetime="27 February 2024">
+                27 February 2024
+            </time>
+
+            <h3 class="pc--title">
+                Leaving Postman and what&#x27;s ahead
+            </h3>
+        </div>
+    </div>
+</a>                        <a href="https://rohitlakhotia.com/blog/how-to-self-host-blog-using-ghost/" class="pc--link-container">
+    <div class="pc--container">
+
+        <picture class="pc--image-picture">
+            <source srcset="/content/images/size/w300/format/webp/2023/12/inkwell-featured.png 300w, /content/images/size/w600/format/webp/2023/12/inkwell-featured.png 600w, /content/images/size/w1200/format/webp/2023/12/inkwell-featured.png 1200w, /content/images/size/w2000/format/webp/2023/12/inkwell-featured.png 2000w" sizes="(max-width: 1000px) 300px, 600px" type="image/webp">
+
+            <img class="pc--image" srcset="/content/images/size/w300/2023/12/inkwell-featured.png 300w,
+                /content/images/size/w600/2023/12/inkwell-featured.png 600w, /content/images/size/w1200/2023/12/inkwell-featured.png 1200w, /content/images/size/w2000/2023/12/inkwell-featured.png 2000w" sizes="(max-width: 1000px) 300px, 600px" width="100%" height="100%"
+                src="/content/images/size/w600/2023/12/inkwell-featured.png" loading="lazy"
+                alt="How to self-host a blog using Ghost?" />
+        </picture>
+
+        <div class="pc--content-container">
+            <time class="pc--date" datetime="25 December 2023">
+                25 December 2023
+            </time>
+
+            <h3 class="pc--title">
+                How to self-host a blog using Ghost?
+            </h3>
+        </div>
+    </div>
+</a>                </div>
+            </div>
+
+
+
+
+                    <div class="divider--container">
+    <hr class="divider-hr" />
+</div>
+                    <div class="fws--container">
+                        <div class="fws--content-container">
+    <p class="fws--content-title">
+            Join my newsletter
+    </p>
+
+    <p class="fws--content-description">
+            I share technical stuff which I find interesting.
+    </p>
+
+    <form class="subform--out-container" data-members-form="subscribe">
+
+    <div class="subform--container">
+
+        <div class="subform--input-container">
+            <label class="sr-only subform--email-input-label" for="subscribe-fws-form">Enter your email</label>
+            <input type="email" placeholder="Enter your email" aria-label="Email Address"
+                class="subform--email-input" id="subscribe-fws-form" required data-members-email />
+        </div>
+        <button class="subform--submit-btn" value='Subscribe' type="submit">
+             Subscribe 
+        </button>
+
+        <button class="subform--submit-btn-loading" disabled value='...'>
+            ...
+        </button>
+
+    </div>
+
+    <p class='subform--success-text'>Check your email for magic link</p>
+    <p class='subform--error-text' data-members-error>An error occurred, please try again later.</p>
+</form></div>                    </div>
+
+
+        <div class="divider--container">
+    <hr class="divider-hr" />
+</div>
+    </main>
+
+    <footer class="footer--container">
+
+    <div class="footer--social">
+        <div class="socials--container">
+    
+        <a href="https://twitter.com/rohitlakh" target="_blank" title="Twitter" class="socials--twitter-link">
+            <svg class="icons--common icon--twitter" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+    viewBox="0 0 24 24" width="24" height="24">
+    <path fill="none" d="M0 0h24v24H0z" />
+    <path
+        d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z" />
+</svg>
+<span class="sr-only">Twitter</span>        </a>
+
+        <a href="https://www.facebook.com/rohit.lakhotia.39/" target="_blank" title="Facebook" class="socials--facebook-link">
+            <svg class="icons--common icon--facebook" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24" width="24" height="24">
+    <path fill="none" d="M0 0h24v24H0z" />
+    <path
+        d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z" />
+</svg>
+<span class="sr-only">Facebook</span>        </a>
+
+        <a href="https://www.linkedin.com/in/rohit-lakhotia/" target="_blank" title="Linkedin profile" class="socials--linkedin-link">
+            <svg class="icons--common icon--linkedin" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+        viewBox="0 0 24 24" width="24" height="24">
+        <path fill="none" d="M0 0h24v24H0z" />
+        <path
+                d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z" />
+</svg>
+<span class="sr-only">Linkedin</span>        </a>
+
+
+</div>    </div>
+
+    <div class="footer--navigation-container">
+            <ul class="nav">
+        <li class="nav-data-privacy">
+            <a href="https://rohitlakhotia.com/privacy/">Data &amp; privacy</a>
+        </li>
+        <li class="nav-contact">
+            <a href="https://rohitlakhotia.com/contact/">Contact</a>
+        </li>
+        <li class="nav-contribute">
+            <a href="https://rohitlakhotia.com/contribute/">Contribute →</a>
+        </li>
+</ul>
+        <p class="footer--copyright">
+            &copy;2024 Rohit Lakhotia. Published with <a target="_blank" class="text-primary" href="https://ghost.org"
+                target="_blank" rel="noopener">Ghost</a> and <a target="_blank" class="text-primary"
+                href="https://rohitlakh.gumroad.com/l/inkwell">Inkwell</a>
+        </p>
+    </div>
+</footer>    
+        <script>
+        // Code for mobile navigation
+        const mobileNavigationBtn = document.getElementById("mobile-navigation-button");
+        const mobileNavigation = document.getElementById("mobile-navigation");
+        mobileNavigationBtn?.addEventListener("click", () => {
+            mobileNavigation?.classList.toggle("hidden");
+        });
+
+        // Code for avatar dropdown
+        const avatarMenuButton = document.getElementById("avatar-menu-button");
+        const avatarMenu = document.getElementById("avatar-menu");
+        avatarMenuButton?.addEventListener("click", () => {
+            avatarMenu?.classList.toggle("hidden");
+        });
+    </script>
+
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    	const links = Array.from(document.querySelectorAll('.post a'));
+        links.forEach((x) => {
+            if (x.hostname && x.hostname !== location.hostname) {
+                x.setAttribute('target', '_blank');
+            }
+        });
+    }, false);
+
+</script>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        document.querySelectorAll('pre[class*=language-]').forEach(function (node) {
+            node.classList.add('line-numbers');
+        });
+        Prism.highlightAll();
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js" integrity="sha512-axJX7DJduStuBB8ePC8ryGzacZPr3rdLaIDZitiEgWWk2gsXxEFlm4UW0iNzj2h3wp5mOylgHAzBzM4nRSvTZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
